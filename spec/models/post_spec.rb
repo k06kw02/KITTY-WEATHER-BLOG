@@ -1,7 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Post, type: :model do
-
+  describe "Associations" do
+    it { should belong_to(:user).without_validating_presence }
+  end
   context 'validation tests' do
     current_user = User.first_or_create!(email: 'ext@example.com', password: 'password', password_confirmation: 'password')
     it 'ensures title presence' do
