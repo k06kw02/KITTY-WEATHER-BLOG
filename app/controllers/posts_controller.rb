@@ -35,6 +35,7 @@ class PostsController < ApplicationController
       end
     end
   end
+
   def destroy
     @post.destroy
     respond_to do |format|

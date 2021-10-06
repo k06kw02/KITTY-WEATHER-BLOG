@@ -18,4 +18,4 @@ import 'bootstrap';
 
 require("trix")
 require("@rails/actiontext")
-require("ckeditor/init")
+// require("ckeditor/init")

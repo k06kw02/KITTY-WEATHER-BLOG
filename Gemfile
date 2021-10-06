@@ -32,7 +32,7 @@ gem 'devise', '~> 4.8'
 gem 'pundit'
 
 #WYSIWYG
-gem 'ckeditor', '~> 4.1'
+# gem 'ckeditor', '~> 4.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
