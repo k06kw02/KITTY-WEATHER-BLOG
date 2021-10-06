@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: %i[show edit update destroy]
+   before_action :set_post, only: %i[show edit update destroy]
   include PostsHelper
 
   def index
@@ -42,7 +42,8 @@ class PostsController < ApplicationController
     end
   end
 
-  private
+
+ private
 
   def set_post
     @post = Post.find(params[:id])
